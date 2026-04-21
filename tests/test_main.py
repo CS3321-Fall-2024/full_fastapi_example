@@ -15,7 +15,7 @@ from full_fastapi_example.main import (
 def test_list_movies_returns_static_list():
     assert list_movies() == MY_MOVIES
     assert list_movies() == [
-        {"name": "Chinatown"},
+        {"name": "The Godfather"},
         {"name": "One Battle After Another"},
     ]
 
