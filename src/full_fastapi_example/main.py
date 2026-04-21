@@ -8,7 +8,7 @@ from pydantic import BaseModel
 app = FastAPI(title="Movies API")
 
 MY_MOVIES = [
-    {"name": "Chinatown"},
+    {"name": "The Godfather"},
     {"name": "One Battle After Another"},
 ]
 
